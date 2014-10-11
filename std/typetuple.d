@@ -16,7 +16,7 @@
  *  Based on ideas in Table 3.1 from
  *  $(LINK2 http://amazon.com/exec/obidos/ASIN/0201704315/ref=ase_classicempire/102-2957199-2585768,
  *      Modern C++ Design),
- *   Andrei Alexandrescu (Addison-Wesley Professional, 2001)
+ *   Andrei Alexandrescu (Addison-anWesley Professional, 2001)
  * Macros:
  *  WIKI = Phobos/StdTypeTuple
  *
@@ -617,7 +617,7 @@ unittest
 }
 
 /**
-Tests whether all given items satisfy a template predicate, i.e. evaluates to
+Tests whether any given items satisfy a template predicate, i.e. evaluates to
 $(D F!(T[0]) || F!(T[1]) || ... || F!(T[$ - 1])).
 
 Evaluation is $(I not) short-circuited if a true result is encountered; the
